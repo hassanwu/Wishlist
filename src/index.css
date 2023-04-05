@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@1,900&display=swap');
+
+body {
+  margin: 0; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  height: 100vh;
+  display: flex;
+}
+
+.subsection
+{
+  /* width: 40%; */
+  margin:auto;
+  padding: 10% 1%;
+}
+
+input[type="number"]
+{
+  border: 1px solid green;
+  margin-right: 5px;
+  border-radius: 10px;
+  flex: 10%;
+}
+
+input{
+  border-style: none;
+  /* flex: 10%; */
+  padding: 3px 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-group
+{
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+button
+{
+  padding: 3px 10px;
+  border: none;
+  background-color: rgb(88, 88, 159);
+  color: rgb(246, 246, 246);
+  border-radius: 3px;
+  /* flex: 10%; */
+  cursor: pointer;
+
+}
+
+table
+{
+  width: 100%;
+  text-align: left;
+  padding: 7px;
+  border-collapse: collapse; 
+}
+
+a{
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.secondary
+{
+  background-color: rgb(118, 170, 218);
+  color: black;
+  
+}
+
+#last
+{
+  text-align: left;
+}
+
+
